@@ -80,7 +80,7 @@ def process_folder(img_folder, save_html_folder, save_vis_folder, save_json_fold
 
             img = cv2.imread(str(img_path))
             vis_img = draw_polygons(img, sorted_polygons)
-            cv2.imwrite(str(save_vis_folder / f"{img_path.stem}_vis.jpg"), vis_img)
+            cv2.imwrite(str(save_vis_folder / f"{img_path.stem}.jpg"), vis_img)
 
             save_json_file(save_json_folder / f"{img_path.stem}.json", sorted_polygons, sorted_logi_points)
 

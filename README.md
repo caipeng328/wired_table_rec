@@ -13,6 +13,7 @@
 
 ## 简介
 💖该仓库是用来对文档中表格做结构化识别的推理库，表格结构使用的是自训练模型。相关代码是基于[TableStructureRec](https://github.com/RapidAI/TableStructureRec/tree/main) 进行的二次开发。
+![Demo](./figures/case.gif)
 
 ## 安装
 ``` python {linenos=table}
@@ -24,6 +25,23 @@ pip install -r requirements.txt
 ``` 
 python inference_batch.py --input_folder test_image
 ```
+
+## 数据集
+我们对公开的表格训练数据集进行了整理，包括对 TAL_table，iflytab和wtw的整理。这里感谢相关机构开源的数据集。后续，我们将开源私有数据集。
+
+``` 
+.
+├── TAL_table
+├── iflytab
+├── wtw
+└── train.json #
+```
+
+| Dataset    |  Download                                    |
+| -----------| --------------------------------------------|
+| TAL_table&iflytab&wtw |             |
+| our_dataset           | Coming Soon |
+
 
 ## 未来的工作
 - 结合最新自研的去扭曲与文本矫正模型
