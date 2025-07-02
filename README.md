@@ -1,6 +1,7 @@
 <div align="center">
   <div align="center">
     <h1><b>📊 Table Structure Recognition</b></h1>
+    [中文](README_CH.md)
   </div>
 </div>
 
@@ -16,7 +17,6 @@
 💖 This repository provides an inference toolkit for structured table recognition in documents. The table structure is recognized using a self-trained model. The related code is a secondary development based on [TableStructureRec](https://github.com/RapidAI/TableStructureRec/tree/main). 
 ![Demo](./figures/case.gif)
 
-[中文](README_CH.md)
 ## Installation
 ```python {linenos=table}
 pip install -r requirements.txt
