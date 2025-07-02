@@ -1,9 +1,9 @@
 <div align="center">
   <div align="center">
     <h1><b>📊 Table Structure Recognition</b></h1>
-    [中文](README_CH.md)
   </div>
 </div>
+[中文](README_CH.md)
 
 ## Table of Contents
 - [Introduction](##introduction)
